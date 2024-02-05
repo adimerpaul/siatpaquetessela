@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<facturaElectronicaCompraVenta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturaElectronicaCompraVenta.xsd">
+  <cabecera>
+    <nitEmisor>1010413026</nitEmisor>
+    <razonSocialEmisor>SERVICIO LOCAL DE ACUEDUCTOS Y ALCANTARILLADO - ORURO</razonSocialEmisor>
+    <municipio>Oruro</municipio>
+    <telefono>5243600</telefono>
+    <numeroFactura>24523</numeroFactura>
+    <cuf>4522A0B5D2840708BCC73EE457C0C465FF6D2BA0E7339852C2C4AFD74</cuf>
+    <cufd>BQTlDTkVCQkE=NzjdEODFGRDM1NkU=Qkt7RFFJWEdYVUFIwREU2OTlBMjJBR</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>AVENIDA VILLARROEL, BACKOVIC Y BRASIL, NRO:222 NORESTE, ACERA NORTE, FRENTE A LA TERMINAL DE BUSES</direccion>
+    <codigoPuntoVenta>0</codigoPuntoVenta>
+    <fechaEmision>2023-06-22T12:03:20.000</fechaEmision>
+    <nombreRazonSocial>COOPERATIVA MINERA  "NUEVA SAN JOSE RL</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>5</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>139107020</numeroDocumento>
+    <complemento xsi:nil="true"/>
+    <codigoCliente>139107020</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true"/>
+    <montoTotal>99.15</montoTotal>
+    <montoTotalSujetoIva>99.15</montoTotalSujetoIva>
+    <codigoMoneda>1</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>99.15</montoTotalMoneda>
+    <montoGiftCard xsi:nil="true"/>
+    <descuentoAdicional xsi:nil="true"/>
+    <codigoExcepcion>1</codigoExcepcion>
+    <cafc xsi:nil="true"/>
+    <leyenda>Ley N° 453: El proveedor de productos debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</leyenda>
+    <usuario>PBaptista</usuario>
+    <codigoDocumentoSector>1</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>841001</actividadEconomica>
+    <codigoProductoSin>99100</codigoProductoSin>
+    <codigoProducto>2216</codigoProducto>
+    <descripcion>POR VENTA DE AGUA DE 12M3</descripcion>
+    <cantidad>1</cantidad>
+    <unidadMedida>62</unidadMedida>
+    <precioUnitario>1.95</precioUnitario>
+    <montoDescuento xsi:nil="true"/>
+    <subTotal>1.95</subTotal>
+    <numeroSerie xsi:nil="true"/>
+    <numeroImei xsi:nil="true"/>
+  </detalle>
+  <detalle>
+    <actividadEconomica>841001</actividadEconomica>
+    <codigoProductoSin>99100</codigoProductoSin>
+    <codigoProducto>2216</codigoProducto>
+    <descripcion>POR VENTA DE AGUA DE 12M3</descripcion>
+    <cantidad>1</cantidad>
+    <unidadMedida>62</unidadMedida>
+    <precioUnitario>97.2</precioUnitario>
+    <montoDescuento xsi:nil="true"/>
+    <subTotal>97.2</subTotal>
+    <numeroSerie xsi:nil="true"/>
+    <numeroImei xsi:nil="true"/>
+  </detalle>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Np2Wnzp7/fyV6+dvBVVTnCAJS7GnbgeIjk+kbZAZXGU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WUy1B62z686+xx/zrarqRH5eNA0sTMSLpDe+v9OIPndlo1Uj7BJKqbjepo33qVNcqlRqfMmZuNknmPXJ/7zgnCtJyGw2K7dxtYrnJ5yrrqpiL/Xx+Tc+q6kvr0bre94hG/wM0z0eS8TT+IAdLxgRw5AQT1b+wFxDk+YUqHScdXVIC2lxs4nwdxzKRiVQXOR/1rd/NwiUMLYrT0/XnwutN6K39xcP/5MQZei/pzRHw1cxlCFGKQmih/u8sfgrmJOVIK3n4tzks56MrQZFx/qOtTBbHXnjXnDjIVEPpvxXV7pNW+VZAufjRd9prl41OoNbTcaytxo18t4IktB6TA7rWw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></facturaElectronicaCompraVenta>
